@@ -1,0 +1,10 @@
+header {
+    background-color: #666;
+}
+.navbar-brand {
+    color: #000;
+}
+.nav li a:hover,
+.nav li a:focus {
+    background-color: transparent;
+}
