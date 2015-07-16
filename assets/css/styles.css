@@ -1,17 +1,25 @@
+@font-face {
+    font-family: Walkway;
+    src: url("../fonts/Walkway/Walkway Bold.ttf");
+}
+@font-face {
+    font-family: Bebas;
+    src: url("../fonts/Bebas/BEBAS.ttf");
+}
 header {
     background-color: #fff;
-    height: 100px;
+    height: 50px;
 }
 .header-img {
     z-index: 100;
     position: fixed;
     top: 0;
-    background-image: url(../img/background.png);
+    background-image: url("../img/background.png");
     background-size: cover;
     background-repeat: repeat-x;
-    background-position: 0 -650px;
+    background-position: 0 -675px;
     width: 100%;
-    height: 200px;
+    height: 150px;
     display: table;
 }
 .header-img .logo {
@@ -20,33 +28,139 @@ header {
     vertical-align: middle;
 }
 .header-img .slogan {
-    font-size: 24px;
+    font-family: "Walkway", sans-serif;
+    font-size: 25px;
+    color: #333;
     text-align: center;
+    margin: 0;
 }
-.navigation {
+.nav {
+    margin-top: 150px;
+    font-size: 25px;
+    font-family: "Bebas", sans-serif;
+    height: 50px;
+}
+.nav ul {
     padding-left: 0;
-    margin-top: 200px;
 }
-.navigation li {
+.nav li {
     list-style: none;
     text-align: center;
+    line-height: 50px;
 }
-.navigation a {
+.nav li a {
     color: #000;
-    font-size: 25px;
 }
-.navigation a:hover {
-    text-decoration: none;
+.nav-shop:hover {
     color: #ff3030;
+    text-decoration: none;
+}
+.nav-about:hover {
+    color: #f9d010;
+    text-decoration: none;
+}
+.nav-connect:hover {
+    color: #00aadd;
+    text-decoration: none;
+}
+.carousel {
+    margin-top: 25px;
+}
+.carousel-control {
+    opacity: 0;
+}
+.carousel-control:hover {
+    opacity: .5;
 }
 .content-image {
     margin: 20px auto;
     display: block;
 }
-.content {
+.home-content {
     width: 700px;
     margin: 20px auto;
     padding: 20px;
     background-color: rgba(225, 225, 225, 0.85);
     text-align: center;
+    font-family: "Walkway", sans-serif;
+    font-size: 30px;
+}
+main p.home-content {
+    font-size: 20px;
+}
+.footer {
+    height: 300px;
+    background-color: #ddd;
+}
+.footer-nav {
+    margin-top: 25px;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+    font-family: "Bebas", sans-serif;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+.footer-nav .khordify {
+    font-size: 30px;
+}
+.footer-nav .nav-khordify:hover {
+    color: #00c957;
+    text-decoration: none;
+}
+.footer-nav li {
+    color: #000;
+}
+.footer-nav li a {
+    color: #000;
+}
+.email-label {
+    font-family: "Walkway", sans-serif;
+    font-size: 20px;
+}
+.email {
+    font-family: "Walkway", sans-serif;
+    font-size: 15px;
+}
+.btn {
+    border-radius: 0;
+    font-family: "Walkway", sans-serif;
+    font-size: 15px;
+}
+.social-buttons {
+    list-style: none;
+    text-align:center;
+    font-size: 24px;
+}
+.social-buttons li {
+    padding-bottom: 10px;
+}
+.social-buttons .twitter,
+.social-buttons .twitter:visited {
+    color: #55acee;
+}
+.social-buttons .twitter:hover {
+    opacity: .65;
+}
+.social-buttons .facebook,
+.social-buttons .facebook:visited {
+    color: #4c66a4;
+}
+.social-buttons .facebook:hover {
+    opacity: .65;
+}
+.social-buttons .instagram,
+.social-buttons .instagram:visited {
+    color: #3f729b;
+}
+.social-buttons .instagram:hover {
+    opacity: .65;
+}
+.copyright {
+    font-family: "Walkway", sans-serif;
+    font-size: 15px;
+}
+.copyright-symbol {
+    font-family: sans-serif;
 }
