@@ -64,13 +64,26 @@ header {
     text-decoration: none;
 }
 .carousel {
-    margin-top: 25px;
+    margin-top: 15px;
+    position: relative;
 }
 .carousel-control {
     opacity: 0;
 }
 .carousel-control:hover {
     opacity: .5;
+}
+.carousel-button,
+.carousel-button:visited {
+    position: absolute;
+    bottom: 0;
+    left: 47.25%;
+    background-color: #ff3030;
+    color: #fff;
+}
+.carousel-button:hover {
+    color: #fff;
+    opacity: .8;
 }
 .content-image {
     margin: 20px auto;
@@ -85,8 +98,23 @@ header {
     font-family: "Walkway", sans-serif;
     font-size: 30px;
 }
-main p.home-content {
+p.home-content {
     font-size: 20px;
+}
+.connect {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.connect-content {
+    font-family: "Walkway", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.connect-form {
+    text-align: center;
+}
+.connect-button {
+    margin-top: 15px;
 }
 .footer {
     height: 300px;
@@ -160,6 +188,7 @@ main p.home-content {
 .copyright {
     font-family: "Walkway", sans-serif;
     font-size: 15px;
+    text-align: center;
 }
 .copyright-symbol {
     font-family: sans-serif;
