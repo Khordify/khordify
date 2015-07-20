@@ -111,6 +111,151 @@ header {
 p.home-content {
     font-size: 20px;
 }
+.shop {
+    margin-bottom: 35px;
+}
+.image-container img {
+    margin-bottom: 20px;
+    width: 350px;
+}
+.image-container {
+    text-align: center;
+    font-family: "Walkway", sans-serif;
+    font-size: 25px;
+}
+.image-container a {
+    color: #000;
+}
+.shop-row {
+    height: 500px;
+}
+.Keith .Rengar:hover {
+    color: #ff0000;
+    text-decoration: none;
+}
+.Stole .Night-Hunter-Rengar:hover {
+    color: #b90bb9;
+    text-decoration: none;
+}
+.My .Head-Hunter-Rengar:hover {
+    color: rgb(11, 158, 224);
+    text-decoration: none;
+}
+.Other .Nidalee:hover {
+    color: #00b900;
+    text-decoration: none;
+}
+.Class .Snow-Bunny-Nidalee:hover {
+    color: #ff6c00;
+    text-decoration: none;
+}
+.Name .Kitty-Kat-Katarina:hover {
+    color: rgb(245, 227, 12);
+    text-decoration: none;
+}
+.about {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.about-intro h2 {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.about-content {
+    font-family: "Walkway", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: #ffbb00;
+}
+.about-content h3 {
+    font-weight: bolder;
+    font-size: 25px;
+}
+.ceo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
+    -webkit-border-radius: px;
+    -moz-border-radius: 100px;
+    background: url(../img/ceo.png);
+    margin-left: auto;
+    margin-right: auto;
+}
+.coo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
+    -webkit-border-radius: px;
+    -moz-border-radius: 100px;
+    background: url(../img/coo.png);
+    margin-left: auto;
+    margin-right: auto;
+}
+.cto {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
+    -webkit-border-radius: px;
+    -moz-border-radius: 100px;
+    background: url(../img/cto.png);
+    margin-left: auto;
+    margin-right: auto;
+}
+.cco {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
+    -webkit-border-radius: px;
+    -moz-border-radius: 100px;
+    background: url(../img/cco.png);
+    margin-left: auto;
+    margin-right: auto;
+}
+.cio {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
+    -webkit-border-radius: px;
+    -moz-border-radius: 100px;
+    background: url(../img/cio.png);
+    margin-left: auto;
+    margin-right: auto;
+}
+.cmo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
+    -webkit-border-radius: px;
+    -moz-border-radius: 100px;
+    background: url(../img/cmo.png);
+    margin-left: auto;
+    margin-right: auto;
+}
+.cfo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 180px;
+    background: url(../img/cfo.png);
+    margin-left: auto;
+    margin-right: auto;
+}
 .connect {
     margin-top: 35px;
     margin-bottom: 35px;
