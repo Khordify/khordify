@@ -22,10 +22,12 @@ header {
     height: 150px;
     display: table;
 }
-.header-img .logo {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
+@media only screen and (min-width : 480px) {
+    .header-img .logo {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+    }
 }
 .header-img .slogan {
     font-family: "Walkway", sans-serif;
@@ -127,7 +129,8 @@ p.home-content {
     color: #000;
 }
 .shop-row {
-    height: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .Keith .Rengar:hover {
     color: #ff0000;
@@ -160,18 +163,30 @@ p.home-content {
 .about-intro h2 {
     width: 100%;
     display: block;
-    margin: 0 auto;
+    font-family: "Walkway", sans-serif;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.about-intro lead {
+    font-family: "Bebas", sans-serif;
 }
 .about-content {
     font-family: "Walkway", sans-serif;
     font-size: 20px;
     text-align: center;
-    padding-top: 25px;
+    padding: 15px 10px;
     background-color: #ffbb00;
 }
-.about-content h3 {
+.profile-content h3 {
     font-weight: bolder;
+    font-size: 30px;
+}
+.profile-content .position {
     font-size: 25px;
+}
+.profile-content .position-work {
+    font-size: 20px;
 }
 .ceo {
     background-size: cover;
@@ -267,6 +282,7 @@ p.home-content {
 }
 .connect-form {
     text-align: center;
+    font-family: "Bebas", sans-serif;
 }
 .connect-form .form-group {
     margin-top: 10px;
