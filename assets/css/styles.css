@@ -310,6 +310,10 @@ header {
 .connect-button {
     margin-top: 20px;
 }
+.connect-button a {
+    text-decoration: none;
+    color: #fff;
+}
 .footer {
     background-color: #ddd;
 }
