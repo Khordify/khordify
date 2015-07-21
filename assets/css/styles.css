@@ -25,14 +25,9 @@ header {
     text-align: center;
     vertical-align: middle;
 }
-@media only screen and (max-width : 480px) {
-    .header-img .logo img{
-        width: 75%;
-    }
-}
 @media only screen and (max-width : 768px) {
     .header-img .logo img{
-        width: 75%;
+        width: 65%;
     }
 }
 .header-img .slogan {
@@ -43,7 +38,7 @@ header {
     margin: 0;
 }
 .nav {
-    margin-top: 150px;
+    margin-top: 175px;
     font-size: 25px;
     font-family: "Bebas", sans-serif;
     padding-right: 0;
@@ -72,7 +67,6 @@ header {
     text-decoration: none;
 }
 .carousel {
-    margin-top: 15px;
     position: relative;
 }
 .carousel-control {
@@ -98,16 +92,48 @@ header {
     width: 180px;
     padding: 10px 20px;
 }
+.carousel-button:hover {
+    color: #fff;
+    background-color: #ff4040;
+}
+@media only screen and (max-width : 992px) {
+    .carousel-button {
+        position: absolute;
+        bottom: 60px;
+        left: 50%;
+        margin-left: -70px;
+        background-color: #ff3030;
+        color: #fff;
+        font-size: 25px;
+        width: 140px;
+        padding: 8px 16px;
+    }
+}
 @media only screen and (max-width : 768px) {
     .carousel-button {
         position: absolute;
         bottom: 50px;
-        
+        left: 50%;
+        margin-left: -60px;
+        background-color: #ff3030;
+        color: #fff;
+        font-size: 20px;
+        width: 120px;
+        padding: 7px 12px;
     }
 }
-.carousel-button:hover {
-    color: #fff;
-    background-color: #ff4040;
+@media only screen and (max-width : 480px) {
+    .carousel-button {
+        position: absolute;
+        bottom: 43px;
+        left: 50%;
+        margin-left: -40px;
+        background-color: #ff3030;
+        color: #fff;
+        font-size: 15px;
+        width: 80px;
+        padding: 4px 6px;
+    }
 }
 .content-image {
     margin: 20px auto;
@@ -197,9 +223,6 @@ p.home-content {
 .profile-content .position {
     font-size: 25px;
     font-weight: bold;
-}
-.profile-content .position-work {
-    font-size: 20px;
 }
 .ceo {
     background-size: cover;
