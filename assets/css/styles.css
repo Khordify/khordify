@@ -130,19 +130,6 @@ header {
         padding: 7px 12px;
     }
 }
-@media only screen and (max-width : 480px) {
-    .carousel-button {
-        position: absolute;
-        bottom: 43px;
-        left: 50%;
-        margin-left: -40px;
-        background-color: #ff3030;
-        color: #fff;
-        font-size: 15px;
-        width: 80px;
-        padding: 4px 6px;
-    }
-}
 .content-image {
     margin: 20px auto;
     display: block;
