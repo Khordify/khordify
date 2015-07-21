@@ -43,6 +43,14 @@ header {
     font-family: "Bebas", sans-serif;
     padding-right: 0;
 }
+@media only screen and (max-width : 480px) {
+    .nav {
+        margin-top: 115px;
+        font-size: 25px;
+        font-family: "Bebas", sans-serif;
+        padding-right: 0;
+    }
+}
 .nav ul {
     padding-left: 0;
 }
@@ -138,18 +146,6 @@ header {
 .content-image {
     margin: 20px auto;
     display: block;
-}
-.home-content {
-    width: 700px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: rgba(225, 225, 225, 0.85);
-    text-align: center;
-    font-family: "Walkway", sans-serif;
-    font-size: 30px;
-}
-p.home-content {
-    font-size: 20px;
 }
 .shop {
     margin-bottom: 35px;
