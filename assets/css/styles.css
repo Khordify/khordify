@@ -183,7 +183,7 @@ header {
     text-decoration: none;
 }
 .about {
-    margin-top: 35px;
+    margin-top: 15px;
     margin-bottom: 35px;
 }
 .about-intro h2 {
@@ -193,6 +193,7 @@ header {
     font-size: 30px;
     margin: 0;
     margin-bottom: 15px;
+    text-align: center;
 }
 .about-intro lead {
     font-family: "Bebas", sans-serif;
@@ -296,7 +297,6 @@ header {
     margin-right: auto;
 }
 .connect {
-    margin-top: 15px;
     margin-bottom: 15px;
 }
 .connect-content {
