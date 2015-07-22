@@ -158,29 +158,21 @@ header {
 .image-container a {
     color: #000;
 }
-.Keith .Rengar:hover {
-    color: #ff0000;
-    text-decoration: none;
-}
-.Stole .Night-Hunter-Rengar:hover {
+.Keith .Rengar {
     color: #b90bb9;
-    text-decoration: none;
+    text-align: center;
 }
-.My .Head-Hunter-Rengar:hover {
-    color: rgb(11, 158, 224);
-    text-decoration: none;
-}
-.Other .Nidalee:hover {
-    color: #00b900;
-    text-decoration: none;
-}
-.Class .Snow-Bunny-Nidalee:hover {
+.Stole .Night-Hunter-Rengar {
     color: #ff6c00;
-    text-decoration: none;
+    text-align: center;
 }
-.Name .Kitty-Kat-Katarina:hover {
-    color: rgb(245, 227, 12);
-    text-decoration: none;
+.Other .Head-Hunter-Rengar {
+    color: rgb(11, 158, 224);
+    text-align: center;
+}
+.Class .Nidalee {
+    color: #ff0000;
+    text-align: center;
 }
 .about {
     margin-top: 15px;
