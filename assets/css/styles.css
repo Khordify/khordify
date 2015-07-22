@@ -187,6 +187,15 @@ header {
     margin-bottom: 15px;
     text-align: center;
 }
+.about-intro p {
+    width: 100%;
+    display: block;
+    font-family: "Walkway", sans-serif;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
 .about-intro lead {
     font-family: "Bebas", sans-serif;
 }
