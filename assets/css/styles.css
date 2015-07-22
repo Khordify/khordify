@@ -298,14 +298,18 @@ header {
     font-family: "Walkway", sans-serif;
     font-size: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 .connect-form {
     text-align: center;
-    font-family: "Bebas", sans-serif;
+    font-family: "Walkway", sans-serif;
 }
 .connect-form .form-group {
     margin-top: 10px;
     margin-bottom: 10x;
+}
+.connect-form label {
+    font-family: "Bebas", sans-serif;
 }
 .connect-button {
     margin-top: 20px;
