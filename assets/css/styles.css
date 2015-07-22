@@ -77,6 +77,10 @@ header {
 .carousel {
     position: relative;
 }
+.carousel-inner img {
+    margin-left: auto;
+    margin-right: auto;
+}
 .carousel-control {
     opacity: 0;
 }
