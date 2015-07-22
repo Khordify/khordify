@@ -291,12 +291,13 @@ header {
     margin-right: auto;
 }
 .connect {
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .connect-content {
     font-family: "Walkway", sans-serif;
     font-size: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
